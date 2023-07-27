@@ -133,7 +133,18 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="cart-box mt-all-30">
                             <ul class="d-flex justify-content-lg-end justify-content-center align-items-center">
-                                <li><a href="#"><i class="lnr lnr-cart"></i><span class="my-cart"><span class="total-pro">2</span><span>cart</span></span></a>
+                                <li><a href="cart.php"><i class="lnr lnr-cart"></i><span class="my-cart"><span class="total-pro"> 
+<?php
+// include "controllers/c_cart.php";
+
+//                                     if ($check_cart) {
+//                                      $qty=  Session::get("qty");
+//                                      echo $qty;
+//                                  }else{
+//                                     echo "0";
+//                                 }
+
+                                ?></span><span>cart</span></span></a>
                                     <ul class="ht-dropdown cart-box-width">
                                         <li>
                                             <!-- Cart Box Start -->
@@ -217,11 +228,11 @@
                                 <li><a href="shop.html">shop<i class="fa fa-angle-down"></i></a>
                                     <!-- Home Version Dropdown Start -->
                                     <ul class="ht-dropdown dropdown-style-two">
-                                        <li><a href="product.html">product details</a></li>
-                                        <li><a href="compare.html">compare</a></li>
-                                        <li><a href="cart.html">cart</a></li>
-                                        <li><a href="checkout.html">checkout</a></li>
-                                        <li><a href="wishlist.html">wishlist</a></li>
+                                        <!-- <li><a href="product.php">product details</a></li> -->
+                                        <li><a href="compare.php">compare</a></li>
+                                        <li><a href="cart.php">cart</a></li>
+                                        <li><a href="checkout.php">checkout</a></li> 
+                                        <li><a href="wishlist.php">wishlist</a></li>
                                     </ul>
                                     <!-- Home Version Dropdown End -->
                                 </li>

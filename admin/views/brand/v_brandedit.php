@@ -21,7 +21,7 @@
                     if ($get_brand_name) {
                         $result = $get_brand_name->fetch_assoc();
                         ?>
-                        <form class="form-horizontal" action="" method="post">
+                        <form class="form-horizontal" action="" method="post" >
                             <input type="hidden" name="brandid" value="<?php echo $id; ?>">
                             <div class="card-body">
                                 <h4 class="card-title">Sửa thương hiệu</h4>

@@ -7,17 +7,17 @@ $categoryController = new c_category();
 
 switch ($action) {
     case 'catadd':
-        $categoryController->index();
-        break;
+    $categoryController->index();
+    break;
     case 'catedit':
-        $categoryController->edit();
-        break;
+    $categoryController->edit();
+    break;
     case 'catdel':
-        $categoryController->delete();
-        break;
+    $categoryController->delete();
+    break;
     case 'catlist':
     default:
-        $categoryController->list();
-        break;
+    $categoryController->list();
+    break;
 }
 ?>

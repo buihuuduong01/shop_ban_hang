@@ -1,6 +1,8 @@
 <?php
-include_once("../connect/database.php");
-include_once("../connect/format.php");
+
+include_once"../connect/database.php";
+include_once"../connect/format.php";
+
 
 class Category {
     private $db;

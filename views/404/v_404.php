@@ -140,9 +140,7 @@
                                 </ul>
                                 <!-- Vertical Mega-Menu End -->
                             </li>
-                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/4.png"
-                                                               alt="menu-icon"></span>Phones & Tablets<i
-                                            class="fa fa-angle-right" aria-hidden="true"></i>
+                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/4.png" alt="menu-icon"></span>Phones & Tablets<i class="fa fa-angle-right" aria-hidden="true"></i>
                                 </a>
                                 <!-- Vertical Mega-Menu Start -->
                                 <ul class="ht-dropdown megamenu megamenu-two">
@@ -171,9 +169,7 @@
                                 </ul>
                                 <!-- Vertical Mega-Menu End -->
                             </li>
-                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/6.png"
-                                                               alt="menu-icon"></span>TV & Video<i
-                                            class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/6.png" alt="menu-icon"></span>TV & Video<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                 <!-- Vertical Mega-Menu Start -->
                                 <ul class="ht-dropdown megamenu megamenu-two">
                                     <!-- Single Column Start -->
@@ -201,23 +197,17 @@
                                 </ul>
                                 <!-- Vertical Mega-Menu End -->
                             </li>
-                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/5.png"
-                                                               alt="menu-icon"></span>Beauty</a>
+                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/5.png" alt="menu-icon"></span>Beauty</a>
                             </li>
-                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/8.png"
-                                                               alt="menu-icon"></span>Fruits & Veggies</a></li>
-                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/9.png"
-                                                               alt="menu-icon"></span>Computer & Laptop</a></li>
-                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/10.png"
-                                                               alt="menu-icon"></span>Meat & Seafood</a></li>
+                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/8.png" alt="menu-icon"></span>Fruits & Veggies</a></li>
+                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/9.png" alt="menu-icon"></span>Computer & Laptop</a></li>
+                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/10.png" alt="menu-icon"></span>Meat & Seafood</a></li>
                             <!-- More Categoies Start -->
                             <li id="cate-toggle" class="category-menu v-cat-menu">
                                 <ul>
                                     <li class="has-sub"><a href="#">More Categories</a>
                                         <ul class="category-sub">
-                                            <li><a href="shop.html"><span><img
-                                                                src="public/layout/img/vertical-menu/11.png"
-                                                                alt="menu-icon"></span>Accessories</a></li>
+                                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/11.png" alt="menu-icon"></span>Accessories</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -240,157 +230,90 @@
         <div class="breadcrumb">
             <ul class="d-flex align-items-center">
                 <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="cart.html">Cart</a></li>
+                <li class="active"><a href="404.html">404</a></li>
             </ul>
         </div>
     </div>
     <!-- Container End -->
 </div>
 <!-- Breadcrumb End -->
-<!-- Cart Main Area Start -->
-<div class="cart-main-area ptb-100 ptb-sm-60">
+<!-- Error 404 Area Start -->
+<div class="error404-area ptb-100 ptb-sm-60">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <!-- hiển thị thông báo update -->
-                <?php
-                if (isset($UpdateQuantityCart)) {
-                    echo $UpdateQuantityCart;
-                }
-                ?>
-                <!-- hiển thị thông báo delete -->
-                 <?php
-                if (isset($cartdel)) {
-                    echo $cartdel;
-                }
-                ?>
-
-                <form action="" method="post">
-                    <!-- Table Content Start -->
-
-
-                    <div class="table-content table-responsive mb-45">
-
-                        <table>
-                            <thead>
-                            <tr>
-                                <th class="product-thumbnail"width="10%">Hình ảnh</th>
-                                <th class="product-name"width="10%">Sản phẩm</th>
-                                <th class="product-price"width="15%">Giá</th>
-                                <th class="product-quantity" width="20%">Số lượng</th> 
-                    
-                                <th class="product-subtotal"width="10%">Thành tiền</th>
-                                <th class="product-remove"width="10%">Action</th>
-                            </tr>
-                            </thead>
-                            <?php
-                            $get_product_cart = $ct->get_product_cart();
-                            if ($get_product_cart) {
-                                $subtotal = 0;
-                                $qty = 0;
-                                while ($result = $get_product_cart->fetch_assoc()) {
-                                    ?>
-                                    <tbody>
-                                    <tr>
-                                        <td class="product-thumbnail">
-                                            <a href=""><img src="admin/uploads/<?php
-                                                echo trim($result['image']) ?>" alt="cart-image"/></a>
-                                        </td>
-                                        <td class="product-name"><a href="product.php?proid=<?php
-                                            echo $result['productId'] ?>"><?php
-                                                echo $result['productName'] ?></a></td>
-                                        <td class="product-price"><span class="amount"><?php
-                                                echo $result['price'] . " " . "VNĐ" ?></span></td>
-                                       <td>
-                                           <form action="" method="post">
-                                              <input type="hidden" name="cartId" value="<?php
-                                              echo $result['cartId'] ?>"/>
-                                              <input type="number" name="quantity" min="0" 
-                                              value="<?php
-                                              echo $result['quantity'] ?>"/>
-                                               <input type="submit" name="submit" value="Update"/>
-                                           </form>
-                                       </td>
-                                        <td class="product-subtotal">
-                                            <?php
-                                            $total = $result['price'] * $result['quantity'];
-                                            echo $total . " " . "VNĐ";
-                                            ?>
-
-                                        </td>
-                                        <td class="product-remove"><a href="?cartid=<?php
-                                              echo $result['cartId'] ?>"><i class="fa fa-times"
-                                                                                  aria-hidden="true"></i></a></td>
-                                    </tr>
-                                    </tbody>
-                                    <?php
-                                    $subtotal += $total;
-                                    $qty =$qty+$result['quantity'];
-                                }
-                            }
-                            ?>
-                        </table>
+            <div class="col-md-12">
+                <div class="error-wrapper text-center">
+                    <div class="error-text">
+                        <h1>404</h1>
+                        <h2>Opps! PAGE NOT BE FOUND</h2>
+                        <p>Sorry but the page you are looking for does not exist, have been removed, name changed or is temporarity unavailable.</p>
                     </div>
-  <?php
-                                    $check_cart = $ct->check_cart();
-                                    if ($check_cart) {
-                                    
-                                
-
-                                ?>
-                    <!-- Table Content Start -->
-                    <div class="row">
-                        <!-- Cart Button Start -->
-                        <div class="col-md-8 col-sm-12">
-                            <div class="buttons-cart">
-                               
-                                <a href="index.php">tiếp tục mua hàng</a>
-                            </div>
-                        </div>
-                        <!-- Cart Button Start -->
-                        <!-- Cart Totals Start -->
-                        <div class="col-md-4 col-sm-12">
-                            <div class="cart_totals float-md-right text-md-right">
-                                <h2>Cart Totals</h2>
-                                <br/>
-                                <table class="float-md-right">
-                                    <tbody>
-
-                                    <tr class="order-total">
-                                        <th>Tổng Giá:</th>
-                                        <td>
-                                            <strong><span class="amount"> 
-                                             <?php
-
-                                                    echo $subtotal."" ." VNĐ";
-                                                 //   Session::set('qty',$quantity);
-                                                    ?>
-                                                        
-                                                    </span></strong>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                                <div class="wc-proceed-to-checkout">
-                                    <a href="#">Proceed to Checkout</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Cart Totals End -->
+                    <div class="search-error">
+                        <form id="search-form" action="#">
+                            <input type="text" placeholder="Search">
+                            <button><i class="fa fa-search"></i></button>
+                        </form>
                     </div>
-                    <?php
-                        }else{
-                            echo "<div class=\"buttons-cart\">
-                               
-                                <a href=\"index.php\">Quay lại mua hàng</a>
-                            </div>";
-                        }
-                    ?>
-                    <!-- Row End -->
-                </form>
-                <!-- Form End -->
+                    <div class="error-button">
+                        <a href="index.php">Back to home page</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- Row End -->
     </div>
-</div> 
+</div>
+<!-- Error 404 Area End -->
+<!-- Support Area Start Here -->
+<div class="support-area bdr-top">
+    <div class="container">
+        <div class="d-flex flex-wrap text-center">
+            <div class="single-support">
+                <div class="support-icon">
+                    <i class="lnr lnr-gift"></i>
+                </div>
+                <div class="support-desc">
+                    <h6>Great Value</h6>
+                    <span>Nunc id ante quis tellus faucibus dictum in eget.</span>
+                </div>
+            </div>
+            <div class="single-support">
+                <div class="support-icon">
+                    <i class="lnr lnr-rocket" ></i>
+                </div>
+                <div class="support-desc">
+                    <h6>Worlwide Delivery</h6>
+                    <span>Quisque posuere enim augue, in rhoncus diam dictum non</span>
+                </div>
+            </div>
+            <div class="single-support">
+                <div class="support-icon">
+                    <i class="lnr lnr-lock"></i>
+                </div>
+                <div class="support-desc">
+                    <h6>Safe Payment</h6>
+                    <span>Duis suscipit elit sem, sed mattis tellus accumsan.</span>
+                </div>
+            </div>
+            <div class="single-support">
+                <div class="support-icon">
+                    <i class="lnr lnr-enter-down"></i>
+                </div>
+                <div class="support-desc">
+                    <h6>Shop Confidence</h6>
+                    <span>Faucibus dictum suscipit eget metus. Duis  elit sem, sed.</span>
+                </div>
+            </div>
+            <div class="single-support">
+                <div class="support-icon">
+                    <i class="lnr lnr-users"></i>
+                </div>
+                <div class="support-desc">
+                    <h6>24/7 Help Center</h6>
+                    <span>Quisque posuere enim augue, in rhoncus diam dictum non.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container End -->
+</div>
+<!-- Support Area End Here -->

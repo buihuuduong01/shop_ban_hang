@@ -1,3 +1,4 @@
+
 <!-- Categorie Menu & Slider Area Start Here -->
 <div class="main-page-banner home-3">
     <div class="container">
@@ -141,87 +142,87 @@
                                 <!-- Vertical Mega-Menu End -->
                             </li>
                             <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/4.png" alt="menu-icon"></span>Phones & Tablets<i class="fa fa-angle-right" aria-hidden="true"></i>
-                                </a>
-                                <!-- Vertical Mega-Menu Start -->
-                                <ul class="ht-dropdown megamenu megamenu-two">
-                                    <!-- Single Column Start -->
-                                    <li class="single-megamenu">
-                                        <ul>
-                                            <li class="menu-tile">Tablet</li>
-                                            <li><a href="shop.html">tablet one</a></li>
-                                            <li><a href="shop.html">tablet two</a></li>
-                                            <li><a href="shop.html">tablet three</a></li>
-                                            <li><a href="shop.html">tablet four</a></li>
-                                        </ul>
-                                    </li>
-                                    <!-- Single Column End -->
-                                    <!-- Single Column Start -->
-                                    <li class="single-megamenu">
-                                        <ul>
-                                            <li class="menu-tile">Smartphone</li>
-                                            <li><a href="shop.html">phone one</a></li>
-                                            <li><a href="shop.html">phone two</a></li>
-                                            <li><a href="shop.html">phone three</a></li>
-                                            <li><a href="shop.html">phone four</a></li>
-                                        </ul>
-                                    </li>
-                                    <!-- Single Column End -->
-                                </ul>
-                                <!-- Vertical Mega-Menu End -->
-                            </li>
-                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/6.png" alt="menu-icon"></span>TV & Video<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                                <!-- Vertical Mega-Menu Start -->
-                                <ul class="ht-dropdown megamenu megamenu-two">
-                                    <!-- Single Column Start -->
-                                    <li class="single-megamenu">
-                                        <ul>
-                                            <li class="menu-tile">Gaming Desktops</li>
-                                            <li><a href="shop.html">Alpha Desktop</a></li>
-                                            <li><a href="shop.html">rober Desktop</a></li>
-                                            <li><a href="shop.html">Ultra Desktop </a></li>
-                                            <li><a href="shop.html">beta desktop</a></li>
-                                        </ul>
-                                    </li>
-                                    <!-- Single Column End -->
-                                    <!-- Single Column Start -->
-                                    <li class="single-megamenu">
-                                        <ul>
-                                            <li class="menu-tile">Women’s Fashion</li>
-                                            <li><a href="shop.html">3D-Capable</a></li>
-                                            <li><a href="shop.html">Clearance</a></li>
-                                            <li><a href="shop.html">Free Shipping Eligible</a></li>
-                                            <li><a href="shop.html">On Sale</a></li>
-                                        </ul>
-                                    </li>
-                                    <!-- Single Column End -->
-                                </ul>
-                                <!-- Vertical Mega-Menu End -->
-                            </li>
-                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/5.png" alt="menu-icon"></span>Beauty</a>
-                            </li>
-                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/8.png" alt="menu-icon"></span>Fruits & Veggies</a></li>
-                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/9.png" alt="menu-icon"></span>Computer & Laptop</a></li>
-                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/10.png" alt="menu-icon"></span>Meat & Seafood</a></li>
-                            <!-- More Categoies Start -->
-                            <li id="cate-toggle" class="category-menu v-cat-menu">
-                                <ul>
-                                    <li class="has-sub"><a href="#">More Categories</a>
-                                        <ul class="category-sub">
-                                            <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/11.png" alt="menu-icon"></span>Accessories</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <!-- More Categoies End -->
-                        </ul>
-                    </nav>
-                </div>
+                            </a>
+                            <!-- Vertical Mega-Menu Start -->
+                            <ul class="ht-dropdown megamenu megamenu-two">
+                                <!-- Single Column Start -->
+                                <li class="single-megamenu">
+                                    <ul>
+                                        <li class="menu-tile">Tablet</li>
+                                        <li><a href="shop.html">tablet one</a></li>
+                                        <li><a href="shop.html">tablet two</a></li>
+                                        <li><a href="shop.html">tablet three</a></li>
+                                        <li><a href="shop.html">tablet four</a></li>
+                                    </ul>
+                                </li>
+                                <!-- Single Column End -->
+                                <!-- Single Column Start -->
+                                <li class="single-megamenu">
+                                    <ul>
+                                        <li class="menu-tile">Smartphone</li>
+                                        <li><a href="shop.html">phone one</a></li>
+                                        <li><a href="shop.html">phone two</a></li>
+                                        <li><a href="shop.html">phone three</a></li>
+                                        <li><a href="shop.html">phone four</a></li>
+                                    </ul>
+                                </li>
+                                <!-- Single Column End -->
+                            </ul>
+                            <!-- Vertical Mega-Menu End -->
+                        </li>
+                        <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/6.png" alt="menu-icon"></span>TV & Video<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <!-- Vertical Mega-Menu Start -->
+                            <ul class="ht-dropdown megamenu megamenu-two">
+                                <!-- Single Column Start -->
+                                <li class="single-megamenu">
+                                    <ul>
+                                        <li class="menu-tile">Gaming Desktops</li>
+                                        <li><a href="shop.html">Alpha Desktop</a></li>
+                                        <li><a href="shop.html">rober Desktop</a></li>
+                                        <li><a href="shop.html">Ultra Desktop </a></li>
+                                        <li><a href="shop.html">beta desktop</a></li>
+                                    </ul>
+                                </li>
+                                <!-- Single Column End -->
+                                <!-- Single Column Start -->
+                                <li class="single-megamenu">
+                                    <ul>
+                                        <li class="menu-tile">Women’s Fashion</li>
+                                        <li><a href="shop.html">3D-Capable</a></li>
+                                        <li><a href="shop.html">Clearance</a></li>
+                                        <li><a href="shop.html">Free Shipping Eligible</a></li>
+                                        <li><a href="shop.html">On Sale</a></li>
+                                    </ul>
+                                </li>
+                                <!-- Single Column End -->
+                            </ul>
+                            <!-- Vertical Mega-Menu End -->
+                        </li>
+                        <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/5.png" alt="menu-icon"></span>Beauty</a>
+                        </li>
+                        <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/8.png" alt="menu-icon"></span>Fruits & Veggies</a></li>
+                        <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/9.png" alt="menu-icon"></span>Computer & Laptop</a></li>
+                        <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/10.png" alt="menu-icon"></span>Meat & Seafood</a></li>
+                        <!-- More Categoies Start -->
+                        <li id="cate-toggle" class="category-menu v-cat-menu">
+                            <ul>
+                                <li class="has-sub"><a href="#">More Categories</a>
+                                    <ul class="category-sub">
+                                        <li><a href="shop.html"><span><img src="public/layout/img/vertical-menu/11.png" alt="menu-icon"></span>Accessories</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- More Categoies End -->
+                    </ul>
+                </nav>
             </div>
-            <!-- Vertical Menu End Here -->
         </div>
-        <!-- Row End -->
+        <!-- Vertical Menu End Here -->
     </div>
-    <!-- Container End -->
+    <!-- Row End -->
+</div>
+<!-- Container End -->
 </div>
 <!-- Categorie Menu & Slider Area End Here -->
 <!-- Breadcrumb Start -->
@@ -238,34 +239,32 @@
     <!-- Container End -->
 </div>
 <!-- Breadcrumb End -->
+
+
+
 <!-- Product Thumbnail Start -->
 <div class="main-product-thumbnail ptb-100 ptb-sm-60">
     <div class="container">
-        <div class="thumb-bg">
-            <div class="row">
-                <!-- Main Thumbnail Image Start -->
-                <div class="col-lg-5 mb-all-40">
-                    <!-- Thumbnail Large Image start -->
-                    <div class="tab-content">
-                        <div id="thumb1" class="tab-pane fade show active">
-                            <a data-fancybox="images" href="public/layout/img/products/35.jpg"><img src="public/layout/img/products/35.jpg" alt="product-view"></a>
-                        </div>
-                        <div id="thumb2" class="tab-pane fade">
-                            <a data-fancybox="images" href="public/layout/img/products/13.jpg"><img src="public/layout/img/products/13.jpg" alt="product-view"></a>
-                        </div>
-                        <div id="thumb3" class="tab-pane fade">
-                            <a data-fancybox="images" href="public/layout/img/products/15.jpg"><img src="public/layout/img/products/15.jpg" alt="product-view"></a>
-                        </div>
-                        <div id="thumb4" class="tab-pane fade">
-                            <a data-fancybox="images" href="public/layout/img/products/4.jpg"><img src="public/layout/img/products/4.jpg" alt="product-view"></a>
-                        </div>
-                        <div id="thumb5" class="tab-pane fade">
-                            <a data-fancybox="images" href="public/layout/img/products/5.jpg"><img src="public/layout/img/products/5.jpg" alt="product-view"></a>
-                        </div>
-                    </div>
-                    <!-- Thumbnail Large Image End -->
-                    <!-- Thumbnail Image End -->
-                    <div class="product-thumbnail mt-15">
+        <!-- bắt đầu từ đây  -->
+        <?php
+        if ($product_detail ) { 
+
+            while ($product_details = $product_detail->fetch_assoc()) { ?>
+                <div class="thumb-bg">
+                    <div class="row">
+                        <!-- Main Thumbnail Image Start -->
+                        <div class="col-lg-5 mb-all-40">
+                            <!-- Thumbnail Large Image start -->
+                            <div class="tab-content">
+                                <div id="thumb1" class="tab-pane fade show active">
+                                    <a data-fancybox="images" href="public/layout/img/products/35.jpg"><img src="admin/uploads/<?php
+                                    echo trim($product_details['image']) ?>" alt="product-view"></a>
+                                </div>
+
+                            </div>
+                            <!-- Thumbnail Large Image End -->
+                            <!-- Thumbnail Image End -->
+                  <!--   <div class="product-thumbnail mt-15">
                         <div class="thumb-menu owl-carousel nav tabs-area" role="tablist">
                             <a class="active" data-bs-toggle="tab" href="#thumb1"><img src="public/layout/img/products/35.jpg" alt="product-thumbnail"></a>
                             <a data-bs-toggle="tab" href="#thumb2"><img src="public/layout/img/products/13.jpg" alt="product-thumbnail"></a>
@@ -273,14 +272,15 @@
                             <a data-bs-toggle="tab" href="#thumb4"><img src="public/layout/img/products/4.jpg" alt="product-thumbnail"></a>
                             <a data-bs-toggle="tab" href="#thumb5"><img src="public/layout/img/products/5.jpg" alt="product-thumbnail"></a>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Thumbnail image end -->
                 </div>
                 <!-- Main Thumbnail Image End -->
                 <!-- Thumbnail Description Start -->
                 <div class="col-lg-7">
                     <div class="thubnail-desc fix">
-                        <h3 class="product-header">Faded Short Sleeves T-shirt</h3>
+                        <h3 class="product-header"><?php
+                        echo $product_details['productName']; ?></h3>
                         <div class="rating-summary fix mtb-10">
                             <div class="rating">
                                 <i class="fa fa-star"></i>
@@ -295,9 +295,11 @@
                             </div>
                         </div>
                         <div class="pro-price mtb-30">
-                            <p class="d-flex align-items-center"><span class="prev-price">16.51</span><span class="price">$15.19</span><span class="saving-price">save 8%</span></p>
+                            <p class="d-flex align-items-center"><span class="prev-price">16.51</span><span class="price"><?php
+                            echo $product_details['price']. "" . "VNĐ";?></span><span class="saving-price">save 8%</span></p>
                         </div>
-                        <p class="mb-20 pro-desc-details">Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                        <p class="mb-20 pro-desc-details"><?php
+                        echo $fm->textShorten( $product_details['description'],100); ?></p>
                         <div class="product-size mb-20 clearfix">
                             <label>Size</label>
                             <select class="">
@@ -314,170 +316,182 @@
                                 </li>
                                 <li>
                                     <a class="paste" href="#"></a>
-                                </li>
+                                </li> 
                             </ul>
                         </div>
-                        <div class="box-quantity d-flex hot-product2">
-                            <form action="#">
-                                <input class="quantity mr-15" type="number" min="1" value="1">
-                            </form>
-                            <div class="pro-actions">
-                                <div class="actions-primary">
-                                    <a href="cart.html"  data-bs-toggle="tooltip"  data-bs-placement="top" title="Add to Cart"> + Add To Cart</a>
-                                </div>
-                                <div class="actions-secondary">
-                                    <a href="compare.html"  data-bs-toggle="tooltip"  data-bs-placement="top" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
-                                    <a href="wishlist.html"  data-bs-toggle="tooltip"  data-bs-placement="top" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
-                                </div>
-                            </div>
+                        <div class="box-quantity d-flex hot-product2"> 
+                            <form action="" method="post" enctype= multipart/form-data> 
+                             
+                              <input class="quantity mr-15" type="number" min="1" value="1" name="quantity"> 
+                              <input type="submit" name="add-cart"   class="btn btn-danger"  data-bs-placement="top"data-bs-placement="top" value="add to cart">
+                             
+                          </form>
+
+
+                          <div class="actions-secondary">
+                            <a href="compare.html"  data-bs-toggle="tooltip"  data-bs-placement="top" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>
+                            <a href="wishlist.html"  data-bs-toggle="tooltip"  data-bs-placement="top" title="WishList"><i class="lnr lnr-heart"></i> <span>Add to WishList</span></a>
                         </div>
-                        <div class="pro-ref mt-20">
-                            <p><span class="in-stock"><i class="ion-checkmark-round"></i> IN STOCK</span></p>
-                        </div>
-                        <div class="socila-sharing mt-25">
-                            <ul class="d-flex">
-                                <li>share</li>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
+
                     </div>
                 </div>
-                <!-- Thumbnail Description End -->
-            </div>
-            <!-- Row End -->
-        </div>
-    </div>
-    <!-- Container End -->
-</div>
-<!-- Product Thumbnail End -->
-<!-- Product Thumbnail Description Start -->
-<div class="thumnail-desc pb-100 pb-sm-60">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <ul class="main-thumb-desc nav tabs-area" role="tablist">
-                    <li><a class="active" data-bs-toggle="tab" href="#dtail">Product Details</a></li>
-                    <li><a data-bs-toggle="tab" href="#review">Reviews 1</a></li>
-                </ul>
-                <!-- Product Thumbnail Tab Content Start -->
-                <div class="tab-content thumb-content border-default">
-                    <div id="dtail" class="tab-pane fade show active">
-                        <p>Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which have since evolved into a full ready-to-wear collection in which every item is a vital part of a woman's wardrobe. The result? Cool, easy, chic looks with youthful elegance and unmistakable signature style. All the beautiful pieces are made in Italy and manufactured with the greatest attention. Now Fashion extends to a range of accessories including shoes, hats, belts and more!</p>
-                    </div>
-                    <div id="review" class="tab-pane fade">
-                        <!-- Reviews Start -->
-                        <div class="review border-default universal-padding">
-                            <div class="group-title">
-                                <h2>customer review</h2>
-                            </div>
-                            <h4 class="review-mini-title">Truemart</h4>
-                            <ul class="review-list">
-                                <!-- Single Review List Start -->
-                                <li>
-                                    <span>Quality</span>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <label>Truemart</label>
-                                </li>
-                                <!-- Single Review List End -->
-                                <!-- Single Review List Start -->
-                                <li>
-                                    <span>price</span>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <label>Review by <a href="https://themeforest.net/user/hastech">Truemart</a></label>
-                                </li>
-                                <!-- Single Review List End -->
-                                <!-- Single Review List Start -->
-                                <li>
-                                    <span>value</span>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <label>Posted on 7/20/18</label>
-                                </li>
-                                <!-- Single Review List End -->
-                            </ul>
-                        </div>
-                        <!-- Reviews End -->
-                        <!-- Reviews Start -->
-                        <div class="review border-default universal-padding mt-30">
-                            <h2 class="review-title mb-30">You're reviewing: <br><span>Faded Short Sleeves T-shirt</span></h2>
-                            <p class="review-mini-title">your rating</p>
-                            <ul class="review-list">
-                                <!-- Single Review List Start -->
-                                <li>
-                                    <span>Quality</span>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </li>
-                                <!-- Single Review List End -->
-                                <!-- Single Review List Start -->
-                                <li>
-                                    <span>price</span>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </li>
-                                <!-- Single Review List End -->
-                                <!-- Single Review List Start -->
-                                <li>
-                                    <span>value</span>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </li>
-                                <!-- Single Review List End -->
-                            </ul>
-                            <!-- Reviews Field Start -->
-                            <div class="riview-field mt-40">
-                                <form autocomplete="off" action="#">
-                                    <div class="form-group">
-                                        <label class="req" for="sure-name">Nickname</label>
-                                        <input type="text" class="form-control" id="sure-name" required="required">
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="req" for="subject">Summary</label>
-                                        <input type="text" class="form-control" id="subject" required="required">
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="req" for="comments">Review</label>
-                                        <textarea class="form-control" rows="5" id="comments" required="required"></textarea>
-                                    </div>
-                                    <button type="submit" class="customer-btn">Submit Review</button>
-                                </form>
-                            </div>
-                            <!-- Reviews Field Start -->
-                        </div>
-                        <!-- Reviews End -->
-                    </div>
+                 <?php 
+                                if (isset($AddToCart)) {
+                                    echo '<span style="color:red;font-size:18px"> Đã có trong giỏ hàng </span>'; 
+
+                                }
+                              ?>
+                <div class="pro-ref mt-20">
+                    <p><span class="in-stock"><i class="ion-checkmark-round"></i> IN STOCK</span></p>
                 </div>
-                <!-- Product Thumbnail Tab Content End -->
+                <div class="socila-sharing mt-25">
+                    <ul class="d-flex">
+                        <li>share</li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <!-- Row End -->
+        <!-- Thumbnail Description End -->
     </div>
-    <!-- Container End -->
+    <br><br>
+    <!-- Row End -->
+    <div class="col-sm-12">
+        <ul class="main-thumb-desc nav tabs-area" role="tablist">
+            <li><a class="active" data-bs-toggle="tab" href="#dtail">Product Details</a></li>
+            <li><a data-bs-toggle="tab" href="#review">Reviews 1</a></li>
+        </ul>
+        <!-- Product Thumbnail Tab Content Start -->
+        <div class="tab-content thumb-content border-default">
+            <div id="dtail" class="tab-pane fade show active">
+                <p><?php
+                echo $product_details['description']; ?></p>
+            </div>
+            <div id="review" class="tab-pane fade">
+                <!-- Reviews Start -->
+                <div class="review border-default universal-padding">
+                    <div class="group-title">
+                        <h2>customer review</h2>
+                    </div>
+                    <h4 class="review-mini-title">Truemart</h4>
+                    <ul class="review-list">
+                        <!-- Single Review List Start -->
+                        <li>
+                            <span>Quality</span>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <label>Truemart</label>
+                        </li>
+                        <!-- Single Review List End -->
+                        <!-- Single Review List Start -->
+                        <li>
+                            <span>price</span>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <label>Review by <a href="https://themeforest.net/user/hastech">Truemart</a></label>
+                        </li>
+                        <!-- Single Review List End -->
+                        <!-- Single Review List Start -->
+                        <li>
+                            <span>value</span>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <label>Posted on 7/20/18</label>
+                        </li>
+                        <!-- Single Review List End -->
+                    </ul>
+                </div>
+                <!-- Reviews End -->
+                <!-- Reviews Start -->
+                <div class="review border-default universal-padding mt-30">
+                    <h2 class="review-title mb-30">You're reviewing: <br><span>Faded Short Sleeves T-shirt</span></h2>
+                    <p class="review-mini-title">your rating</p>
+                    <ul class="review-list">
+                        <!-- Single Review List Start -->
+                        <li>
+                            <span>Quality</span>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </li>
+                        <!-- Single Review List End -->
+                        <!-- Single Review List Start -->
+                        <li>
+                            <span>price</span>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </li>
+                        <!-- Single Review List End -->
+                        <!-- Single Review List Start -->
+                        <li>
+                            <span>value</span>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </li>
+                        <!-- Single Review List End -->
+                    </ul>
+                    <!-- Reviews Field Start -->
+                    <div class="riview-field mt-40">
+                        <form autocomplete="off" action="#">
+                            <div class="form-group">
+                                <label class="req" for="sure-name">Nickname</label>
+                                <input type="text" class="form-control" id="sure-name" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label class="req" for="subject">Summary</label>
+                                <input type="text" class="form-control" id="subject" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label class="req" for="comments">Review</label>
+                                <textarea class="form-control" rows="5" id="comments" required="required"></textarea>
+                            </div>
+                            <button type="submit" class="customer-btn">Submit Review</button>
+                        </form>
+                    </div>
+                    <!-- Reviews Field Start -->
+                </div>
+                <!-- Reviews End -->
+            </div>
+        </div>
+        <!-- Product Thumbnail Tab Content End -->
+    </div>
 </div>
-<!-- Product Thumbnail Description End -->
+<?php
+}
+}
+?>
+<!-- kết thúc ở đây -->
+</div>
+</div>
+<!-- Container End -->
+</div>
+
+
+
+
+
+
+
 <!-- Realted Products Start Here -->
 <div class="hot-deal-products off-white-bg pt-100 pb-90 pt-sm-60 pb-sm-50">
     <div class="container">
@@ -507,7 +521,7 @@
                     </div>
                     <div class="pro-actions">
                         <div class="actions-primary">
-                            <a href="cart.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart"> + Add To Cart</a>
+                            <a href="cart.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart"> + Add To Cart</a> 
                         </div>
                         <div class="actions-secondary">
                             <a href="compare.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Compare"><i class="lnr lnr-sync"></i> <span>Add To Compare</span></a>

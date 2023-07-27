@@ -1,7 +1,7 @@
 <?php
 
-include_once("../connect/database.php");
-include_once("../connect/format.php");
+include_once"../connect/database.php";
+include_once"../connect/format.php";
 
 class Product
 {
@@ -25,15 +25,15 @@ class Product
         $type = $this->db->link->real_escape_string($data['type']);
         // kiểm tra và xử lý hình ảnh rồi lưu vào folder upload
         $permited = array('jpg', 'jpeg', 'png', 'tiff', 'webp');
-        $file_name =pathinfo($_FILES['image']['name'],PATHINFO_EXTENSION);
+        $file_name =$_FILES['image']['name'];
         $file_size = $_FILES['image']['size'];
         $file_temp = $_FILES['image']['tmp_name'];
-      
+
         $div = explode('.', $file_name);
         $file_ext = strtolower(end($div));
         $unique_image = substr(md5(time()),0,10).'.'.$file_ext;
         $uploaded_image = "uploads/".$unique_image;
-        echo  $uploaded_image;
+
         if ($productName == "" || $brand == "" || $category == "" || $description == "" || $price == "" || $type == "" || $file_name == "") {
             $alert = "<span class='error'>Không được để trống</span>";
         } else {
@@ -45,19 +45,20 @@ class Product
                 $alert = "<span class='success'>Thêm thành công</span>";
             } else {
                 $alert = "<span class='error'>Thêm không thành công</span>";
+                return $alert;
             }
         }
 
-        return $alert;
+        
     }
 
     public function show_Product()
     {
         $query = "SELECT tbl_product.*, tbl_category.catName, tbl_brand.brandName 
-              FROM tbl_product 
-              INNER JOIN tbl_brand ON tbl_product.brandId = tbl_brand.brandId
-              INNER JOIN tbl_category ON tbl_product.catId = tbl_category.catId 
-              ORDER BY tbl_product.productId DESC";
+        FROM tbl_product 
+        INNER JOIN tbl_brand ON tbl_product.brandId = tbl_brand.brandId
+        INNER JOIN tbl_category ON tbl_product.catId = tbl_category.catId 
+        ORDER BY tbl_product.productId DESC";
 
         // $query = "SELECT * FROM tbl_product ORDER BY productId DESC";
 
@@ -73,7 +74,7 @@ class Product
         return $result;
     }
 
-    public function update_Product($data, $file, $id)
+    public function update_Product($data, $files, $id)
     {
         {
             $productName = $this->db->link->real_escape_string($data['productName']);
@@ -91,7 +92,7 @@ class Product
             $div = explode('.', $file_name);
             $file_ext = strtolower(end($div));
             $unique_image = substr(md5(time()), 0,10) . '.' . $file_ext;
-            $uploaded_image = "uploads/" . $unique_image;
+            $uploaded_image = "uploads/".$unique_image;
 
             if ($productName == "" || $brand == "" || $category == "" || $description == "" || $price == "" || $type == "") {
                 $alert = "<span class='success'>hình ảnh nhiều hơn 2mb</span>";
@@ -103,30 +104,35 @@ class Product
                     } elseif (in_array($file_ext, $permited) === false) {
                         // echo "<span class='error'>bạn chỉ được upload 1 hình ảnh:-" (',',$permited)."</span>";
                         $alert = "<span class='success'>bạn chỉ được upload các file:-" . implode(',',
-                                $permited) . "</span>";
+                            $permited) . "</span>";
                         return $alert;
                     }
-                    $query = "UPDATE tbl_product SET
-                   productName = '$productName' ,
-                   brandId = '$brand',
-                   catId = '$category',
-                   type = '$type',
-                   price = '$price',
-                   image = '$unique_image',                    
-                   description = '$description'
-                   WHERE productId = '$id'";
+                    // Xử lý lưu tập tin ảnh
+                    if (move_uploaded_file($file_temp, $uploaded_image)) {
+                     // Cập nhật cột "image" chỉ khi tập tin ảnh mới được chọn
+                        $query = "UPDATE tbl_product SET
+                        productName = '$productName' ,
+                        brandId = '$brand',
+                        catId = '$category',
+                        type = '$type',
+                        price = '$price',
+                        image = '$unique_image',                    
+                        description = '$description'
+                        WHERE productId = '$id'";
+                    }
                 } else {
                     // nếu người dùng k chọn ảnh
                     $query = "UPDATE tbl_product SET
-                   productName = '$productName' ,
-                   brandId = '$brand',
-                   catId = '$category',
-                   type = '$type',
-                   price = '$price',                 
-                   description = '$description'
-                   WHERE productId = '$id'";
+                    productName = '$productName' ,
+                    brandId = '$brand',
+                    catId = '$category', 
+                    type = '$type',
+                    price = '$price',                 
+                    description = '$description'
+                    WHERE productId = '$id'";
                 }
             }
+            // thực hiện câu truy vấn cập nhật
             $result = $this->db->update($query);
 
             if ($result) {

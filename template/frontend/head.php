@@ -1,7 +1,23 @@
+<?php
+include "connect/session.php";
+session::init();
+
+?>
+ <?php
+ include_once 'connect/database.php';
+ include_once 'connect/format.php';
+
+
+ spl_autoload_register(function($classNameUser){
+    include_once "models/".$classNameUser.".php";
+  
+ });
+ $db = new Database();
+ $fm = new Format();
+?>
+
 <!doctype html>
 <html class="no-js" lang="zxx">
-
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
