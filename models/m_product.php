@@ -19,20 +19,20 @@ class m_product {
     }
 
     public function getproduct_new() {
-       $query = "SELECT * FROM tbl_product WHERE type = '0'";
-       $result = $this->db->select($query);
-       return $result;
-   }
+     $query = "SELECT * FROM tbl_product WHERE type = '0'";
+     $result = $this->db->select($query);
+     return $result;
+ }
 
 
-   public function getproduct_like() {
-       $query = "SELECT * FROM tbl_product WHERE type = '3'";
-       $result = $this->db->select($query);
-       return $result;
-       
-   }
+ public function getproduct_like() {
+     $query = "SELECT * FROM tbl_product WHERE type = '3'";
+     $result = $this->db->select($query);
+     return $result;
 
-   public function getproduct_details($id){
+ }
+
+ public function getproduct_details($id){
     {
         $query = "SELECT tbl_product.*, tbl_category.catName, tbl_brand.brandName 
         FROM tbl_product 
@@ -44,6 +44,11 @@ class m_product {
         return $result;
     }
     
+}
+public function show_category_fontend(){
+      $query = "SELECT * FROM tbl_category ORDER BY catId DESC";
+        $result = $this->db->select($query);
+        return $result;
 }
 }
 

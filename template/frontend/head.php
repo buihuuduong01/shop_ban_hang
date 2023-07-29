@@ -6,8 +6,6 @@ session::init();
  <?php
  include_once 'connect/database.php';
  include_once 'connect/format.php';
-
-
  spl_autoload_register(function($classNameUser){
     include_once "models/".$classNameUser.".php";
   

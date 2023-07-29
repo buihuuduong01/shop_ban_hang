@@ -120,7 +120,7 @@
                                 <div class="col-sm-9">
                                     <input type="text" name="price" class="form-control"
                                     value="<?php
-                                    echo $result_product['price']
+                                    echo $result_product['price']. "" . "VNĐ";
 
                                 ?>">
                             </div>

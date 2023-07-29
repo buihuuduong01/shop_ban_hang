@@ -1,9 +1,5 @@
 <body>
-<!--[if lte IE 9]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-<![endif]-->
 
-<!-- Main Wrapper Start Here -->
 <div class="wrapper">
     <!-- Banner Popup Start -->
     <div class="popup_banner">
@@ -215,7 +211,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-3 col-lg-4 col-md-6 vertical-menu d-none d-lg-block">
-                        <span class="categorie-title">Shop by Categories </span>
+                       
                     </div>
                     <div class="col-xl-9 col-lg-8 col-md-12 ">
                         <nav class="d-none d-lg-block">
@@ -306,83 +302,6 @@
             <!-- Container End -->
         </div>
         <!-- Header Bottom End Here -->
-        <!-- Mobile Vertical Menu Start Here -->
-        <div class="container d-block d-lg-none">
-            <div class="vertical-menu mt-30">
-                <span class="categorie-title mobile-categorei-menu">Shop by Categories</span>
-                <nav>
-                    <div id="cate-mobile-toggle" class="category-menu sidebar-menu sidbar-style mobile-categorei-menu-list menu-hidden ">
-                        <ul>
-                            <li class="has-sub"><a href="#">Automotive & Motorcycle </a>
-                                <ul class="category-sub">
-                                    <li class="has-sub"><a href="shop.html">Office chair</a>
-                                        <ul class="category-sub">
-                                            <li><a href="shop.html">Bibendum Cursus</a></li>
-                                            <li><a href="shop.html">Dignissim Turpis</a></li>
-                                            <li><a href="shop.html">Dining room</a></li>
-                                            <li><a href="shop.html">Dining room</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="has-sub"><a href="shop.html">Purus Lacus</a>
-                                        <ul class="category-sub">
-                                            <li><a href="shop.html">Magna Pellentesq</a></li>
-                                            <li><a href="shop.html">Molestie Tortor</a></li>
-                                            <li><a href="shop.html">Vehicula Element</a></li>
-                                            <li><a href="shop.html">Sagittis Blandit</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop.html">gps accessories</a></li>
-                                    <li><a href="shop.html">Microphones</a></li>
-                                    <li><a href="shop.html">Wireless Transmitters</a></li>
-                                </ul>
-                                <!-- category submenu end-->
-                            </li>
-                            <li class="has-sub"><a href="#">Sports & Outdoors</a>
-                                <ul class="category-sub">
-                                    <li class="menu-tile">Cameras</li>
-                                    <li><a href="shop.html">Cords and Cables</a></li>
-                                    <li><a href="shop.html">gps accessories</a></li>
-                                    <li><a href="shop.html">Microphones</a></li>
-                                    <li><a href="shop.html">Wireless Transmitters</a></li>
-                                </ul>
-                                <!-- category submenu end-->
-                            </li>
-                            <li class="has-sub"><a href="#">Home & Kitchen</a>
-                                <ul class="category-sub">
-                                    <li><a href="shop.html">kithen one</a></li>
-                                    <li><a href="shop.html">kithen two</a></li>
-                                    <li><a href="shop.html">kithen three</a></li>
-                                    <li><a href="shop.html">kithen four</a></li>
-                                </ul>
-                                <!-- category submenu end-->
-                            </li>
-                            <li class="has-sub"><a href="#">Phones & Tablets</a>
-                                <ul class="category-sub">
-                                    <li><a href="shop.html">phone one</a></li>
-                                    <li><a href="shop.html">Tablet two</a></li>
-                                    <li><a href="shop.html">Tablet three</a></li>
-                                    <li><a href="shop.html">phone four</a></li>
-                                </ul>
-                                <!-- category submenu end-->
-                            </li>
-                            <li class="has-sub"><a href="#">TV & Video</a>
-                                <ul class="category-sub">
-                                    <li><a href="shop.html">smart tv</a></li>
-                                    <li><a href="shop.html">real video</a></li>
-                                    <li><a href="shop.html">Microphones</a></li>
-                                    <li><a href="shop.html">Wireless Transmitters</a></li>
-                                </ul>
-                                <!-- category submenu end-->
-                            </li>
-                            <li><a href="#">Beauty</a> </li>
-                            <li><a href="#">Sport & tourisim</a></li>
-                            <li><a href="#">Meat & Seafood</a></li>
-                        </ul>
-                    </div>
-                    <!-- category-menu-end -->
-                </nav>
-            </div>
-        </div>
-        <!-- Mobile Vertical Menu Start End -->
+       
     </header>
     <!-- Main Header Area End Here -->

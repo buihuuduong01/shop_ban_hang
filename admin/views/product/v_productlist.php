@@ -53,7 +53,7 @@
                                             <tr>
                                                 <td><?php echo $i?></td>
                                                 <td><?php echo $result['productName']?></td>
-                                                <td><?php echo $result['price']?></td>
+                                                <td><?php echo $result['price']. "" . " VNĐ ";?></td>
                                                 <td><img src="uploads/<?php echo trim($result['image'])?>" width="80"></td> 
 
                                                 <td><?php echo $result['catName']?></td>
@@ -108,7 +108,7 @@
     </div>
 
     <footer class="footer text-center">
-        All Rights Reserved by Matrix-admin. Designed and Developed by <a href="https://wrappixel.com">WrapPixel</a>.
+       Được thực hiện bởi Dương Thanh Lịch <a href="#">Dương_Dev</a>.
     </footer>
 
 </div>
